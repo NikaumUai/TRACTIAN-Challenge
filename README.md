@@ -67,7 +67,7 @@ To develop it's needed the following components:
 
 ### Thermal Understanding
 Finishing the hardware part of the development it's required an simple thermal analysis. First it's needed to analyse the main power dissipation points. In this case it will be the Linear Voltage Regulator. It's known the potency in the regulator wich will be:
-**P=I*V=0,5*0,9=0,45W=450mW**
+**P=I.V=0,5*0,9=0,45W=450mW**
 Now it's needed the Thermal Resistance Junction to Ambient constant of the IC. Wich in this case is 55 Celsius per watt. So to the final temperature will be:
 **TIC=Tamb+T=Tamb+(0,45*55)=Tamb+24,75**
 So if the product is installed in São Paulo, with a annual average ambient temperature of 20 Celsius, the Ic temperature will be:
