@@ -1,0 +1,39 @@
+Change Component Designator: OldDesignator=C? NewDesignator=C1
+Change Component Designator: OldDesignator=C? NewDesignator=C2
+Change Component Designator: OldDesignator=D? NewDesignator=D1
+Change Component Designator: OldDesignator=D? NewDesignator=D2
+Change Component Designator: OldDesignator=GND? NewDesignator=GND1
+Change Component Designator: OldDesignator=J? NewDesignator=J1
+Change Component Designator: OldDesignator=U? NewDesignator=U1
+Change Component Designator: OldDesignator=VCC? NewDesignator=VCC1
+Added Component: Designator=J2(MALE HEADER 6)
+Add component (AddParameter): Name = "Library Control - Checked Footprint"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Library Control - Checked Schematic"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Library Control - Last Project that Used"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Library Control - Last Update"; Value = "02/10/2022"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Library Control - Person that Checked Footprint"; Value = "Cage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Library Control - Person that Checked Schematic"; Value = "Cage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Library Control - Person that did the Last Update Schematic"; Value = "Cage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Library Control - Persont that did the Last Update Footprint"; Value = "Cage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Library Ref"; Value = "Header"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=J2-PIN5
+Added Pin To Net: NetName=GND Pin=J2-PIN6
+Change Net Name : Old Net Name=NetD?_A New Net Name=NetD1_A
+Change Net Name : Old Net Name=NetD?_C New Net Name=NetD2_C
+Added Pin To Net: NetName=CS Pin=J1-PIN23
+Added Pin To Net: NetName=CS Pin=J2-PIN1
+Added Net: Name=CS
+Added Pin To Net: NetName=MISO Pin=J1-PIN21
+Added Pin To Net: NetName=MISO Pin=J2-PIN4
+Added Net: Name=MISO
+Added Pin To Net: NetName=MOSI Pin=J1-PIN16
+Added Pin To Net: NetName=MOSI Pin=J2-PIN3
+Added Net: Name=MOSI
+Added Pin To Net: NetName=SCK Pin=J1-PIN22
+Added Pin To Net: NetName=SCK Pin=J2-PIN2
+Added Net: Name=SCK
+Added Member To Class: ClassName=Schematic Member=Component C2 1 uF
+Added Member To Class: ClassName=Schematic Member=Component D1 RBR2MM40BTR
+Added Member To Class: ClassName=Schematic Member=Component J2 Male Header 6
